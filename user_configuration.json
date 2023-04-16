@@ -37,6 +37,7 @@
         "go",
         "hyperv",
         "openssh",
+        "cifs-utils",
         "zsh",
         "grml-zsh-config",
         "reflector"
