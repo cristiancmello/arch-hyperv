@@ -36,6 +36,7 @@
         "git",
         "go",
         "hyperv",
+        "openssh",
         "zsh",
         "grml-zsh-config",
         "reflector"
