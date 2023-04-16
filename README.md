@@ -20,12 +20,4 @@ pacman -Sy archinstall # enforce (because common errors with old archinstall)
 archinstall --config https://raw.githubusercontent.com/cristiancmello/arch-hyperv/main/user_configuration.json --disk_layouts https://raw.githubusercontent.com/cristiancmello/arch-hyperv/main/user_disk_layout.json --creds https://raw.githubusercontent.com/cristiancmello/arch-hyperv/main/user_credentials.json
 ```
 
-```sh
-passwd arch
-# define password for arch user
-```
-
-```sh
-su arch
-sudo systemctl enable hv_fcopy_daemon.service hv_kvp_daemon.service hv_vss_daemon.service
-```
+* Post-install : [post-install.sh](post-install.sh) 
